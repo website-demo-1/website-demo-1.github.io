@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/* GENERAL */
+#section1{
+    background-image: url('../assets//img/heroBg.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#section2{ margin-top: -65px!important; }
+
+
+
+#section3{
+    background-image: url('../assets/img/section3Bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+#section4{
+    background-image: url('../assets//img/section4Bg.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#section5{
+    background-image: url('../assets//img/section5Bg.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#section6{
+    background-image: url('../assets//img/section6Bg.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#footer{
+    background-color: #676AA7!important;
+}
+
+body{ font-family: 'Poppins', 'sans-serif'!important; }
+
+.container{ max-width: 1440px!important; }
+
+/* NAV BAR */
+.navbar-expand-lg .navbar-nav .nav-link{
+    font-family: 'DM Sans', sans-serif!important;
+    font-size: 18px!important;
+    font-weight: 600!important;
+}
+
+/* BUTTON */
+.btn-primary{
+    background-color: #19D1B2!important;
+    color: #FFFFFF!important;
+    border: 1px solid #19D1B2!important;
+}
+
+/* BACKROUND COLORS */
+.bg-secondary{ background-color: #F3F4FF!important; }
+
+/* TEXTS */
+.text-primary{ color: #19D1B2!important; }
+
+.text-secondary{ color: #676AA7!important; }
+
+.text-yellow{ color: #F6B91F!important; }
+
+.bold-600{ font-weight: 700!important; }
+.bold-700{ font-weight: 700!important; }
+
+/* BORDER */
+.radius-8{ border-radius: 8px!important; }
+.radius-15{ border-radius: 15px!important; }
+
+
+/* ACCORDION */
+
+.accordion-button:not(.collapsed){
+    background-color: #F2F2F6!important;
+    color: #242254!important;
+    font-weight: 600!important;
+}
+
+.accordion-button{
+    background-color: #F2F2F6;
+    color: #242254!important;
+    font-weight: 600!important;
+}
+
+.accordion-button:not(.collapsed)::after{
+    background-image: url('../assets/img/arrowUp.png');
+}
+
+.accordion-button::after{
+    background-color: #F2F2F6;
+    color: #242254!important;
+    font-weight: 600!important;
+    background-image: url('../assets/img/arrowUp.png');
+}
+
+.accordion-item{
+    background-color: #FAFAFA!important;
+}
+
+
+.py-6{
+    padding-top: 5rem!important;
+    padding-bottom: 5rem!important;
+}
